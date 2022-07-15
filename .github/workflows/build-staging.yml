@@ -60,9 +60,6 @@ jobs:
           helm upgrade \
               --install \
               --create-namespace \
-              --atomic \
-              --debug \
-              --wait \
               --namespace staging \
               contoso-website \
               ./kubernetes/contoso-website \
