@@ -61,6 +61,7 @@ jobs:
               --install \
               --create-namespace \
               --atomic \
+              --debug \
               --wait \
               --namespace staging \
               contoso-website \
